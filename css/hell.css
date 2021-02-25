@@ -1,0 +1,284 @@
+body {
+background: #d3d3d3;
+}
+
+
+table {
+margin: auto;
+display: inline;
+}
+
+#Verwalten {
+margin: auto;
+max-width: 350px;
+height: 100%;
+background-color: #e7e7e7;
+padding: 5px;
+border: 1px solid #ffffff;
+border-radius: 5px;
+text-align: center;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+box-shadow: 0px 0px 5px #ffffff;
+}
+
+#Eingabefeld {
+margin: auto;
+width: 100%;
+height: 150px;
+background-color: #e7e7e7;
+padding: 5px;
+border: 1px solid #ffffff;
+border-radius: 5px;
+text-align: center;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+box-shadow: 0px 0px 5px #ffffff;
+}
+#Ausgabe {
+margin: auto;
+max-width: 300px;
+height: 20px;
+background-color: #e7e7e7;
+border: 1px solid #ffffff;
+border-radius: 5px;
+text-align: center;
+padding: 5px;
+margin-top: 20px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+box-shadow: 0px 0px 5px #ffffff;
+}
+#Sicherheit {
+color: #ae0000;
+}
+
+#Verwaltung {
+margin-top: 0px;
+}
+input[type=text] {
+    padding:5px;
+    width: 90%;
+    text-align: center;
+    border:1px solid #ffffff; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#TextBox {
+    padding:5px;
+    text-align: center;
+    width: 90%;
+    max-width: 90%;
+    resize: none;
+    border:1px solid #ffffff; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+input[type=text]:focus {
+    border-color: grey;
+}
+input[type=password] {
+    padding:5px; 
+        text-align: center;
+    width: 90%;
+    border:1px solid #ffffff; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=password]:focus {
+    border-color: grey;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background: #333333; 
+    color: #ffffff;
+    border:0 none;
+    cursor:pointer;
+    -webkit-appearance:none;
+    -webkit-border-radius:0px;
+
+    border-radius: 5px; 
+    width: 270px;
+    height: 30px;
+    margin-left: -2px;
+    margin-top: 5px;
+}
+
+#Button {
+    padding:5px 15px; 
+    background: #000000; 
+    color: #aaaaaa;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    width: 270px;
+    height: 30px;
+    margin-left: -2px;
+    margin-top: 5px;}
+    
+ #VerwaltButton {
+    padding:5px 15px; 
+    background: #08ae00;
+    color: #ffffff; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    width: 270px;
+    height: 30px;
+    margin-left: -2px;
+    margin-top: 5px;
+}
+
+#Logout {
+    padding:5px 15px; 
+    background: #ae0000;
+    color: #ffffff; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    width: 270px;
+    height: 30px;
+    margin-left: -2px;
+    margin-top: 5px;
+}
+p {
+color: #000000;
+font-family: Lato, sans-serif;
+font-size: 13px;
+line-height: 1.2;
+margin: 0px;
+padding: 0px;
+display: inline;
+text-shadow: 0px 0px 6px #ffffff;
+
+}
+
+h1 {
+font-family: Lato, sans-serif;
+text-align: center;
+font-weight: 300;
+color: #000000;
+margin-top: 20px;
+text-shadow: 0px 0px 5px #ffffff;
+}
+
+h2 {
+font-family: Lato, sans-serif;
+text-align: center;
+font-weight: 300;
+color: #000000;
+margin-top: 20px;
+font-size: 12px;
+text-shadow: 0px 0px 5px #ffffff;
+}
+
+#MottoBeruf {
+font-family: Lato, sans-serif;
+text-align: center;
+font-weight: 300;
+color: #000000;
+margin-top: -30px;
+font-size: 14px;
+text-shadow: 0px 0px 5px #ffffff;
+}
+
+#Kurzinfo {
+font-family: Lato, sans-serif;
+text-align: center;
+font-weight: 300;
+color: #000000;
+margin-top: -30px;
+font-size: 16px;
+text-shadow: 0px 0px 5px #ffffff;
+}
+
+#KurzinfoUE {
+font-family: Lato, sans-serif;
+text-align: center;
+font-weight: 400;
+color: #000000;
+margin-top: -30px;
+font-size: 20px;
+text-shadow: 0px 0px 5px #ffffff;
+}
+
+#SozialeMedien {
+text-align: center;
+padding: 5px;
+}
+
+#SocialFoto {
+max-width: 100px;
+}
+
+#SocialFoto:hover {
+opacity: 0.7;
+}
+
+#DeinFoto {
+max-width: 300px;
+border-radius: 10px;
+border: 1px solid #ffffff;
+box-shadow: 0px 0px 5px #ffffff;
+}
+
+#Index {
+max-width: 300px;
+}
+
+#Kasten {
+max-width: 370px;
+max-height: 100%;
+background-color: #e7e7e7;
+padding: 5px;
+border: 1px solid #ffffff;
+border-radius: 10px;
+box-shadow: 0px 0px 5px #ffffff;
+}
+
+#DesignBox {
+max-width: 350px;
+max-height: 100%;
+background-color: #d1d1d1;
+padding: 5px;
+border-radius: 12px;
+box-shadow: 0px 0px 10px blackborder: 1px solid #3f3f3f;
+border: 1px solid #ffffff;
+}
+
+#LoginDIV {
+margin-top: -20px;
+
+}
+
+#NameText {
+font-family: Lato, sans-serif;
+text-align: center;
+font-weight: 700;
+color: #000000;
+margin-top: 5px;
+text-shadow: 0px 0px 5px #ffffff;
+font-size: 25px;
+}
+
+#Erklaerung {
+font-family: Lato, sans-serif;
+text-align: center;
+font-weight: 300;
+color: #000000;
+line-height: 1.0;
+font-size: 13px;
+text-shadow: 0px 0px 6px #ffffff;
+display: inline;
+}
